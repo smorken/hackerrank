@@ -20,7 +20,7 @@ namespace HackerRankProblems
             Out.WriteLine(s);
         }
     }
-    class Program
+    class ConsoleOverride
     {
         static void Main(string[] args)
         {

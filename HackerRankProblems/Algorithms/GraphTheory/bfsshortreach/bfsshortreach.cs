@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HackerRankProblems.Algorithms.GraphTheory.bfsshortreach
 {
-    class Solution
+    public class Solution
     {
         class Edge
         {
