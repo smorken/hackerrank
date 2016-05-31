@@ -53,6 +53,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Algorithms\GraphTheory\bfsshortreach\bfsshortreachTest.cs" />
+    <Compile Include="Algorithms\Implementation\SherlockAndTheBeast\SherlockAndTheBeastTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TempFile.cs" />
     <Compile Include="TestCaseLoader.cs" />

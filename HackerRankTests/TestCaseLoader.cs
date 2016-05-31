@@ -34,7 +34,7 @@ namespace HackerRankTests
                     }
                     else
                     {
-                        if (line1 == null) { return false; }
+                        if (line1 == null) { return false; }//check for different file lengths
                         if (line2 == null) { return false; }
                         string[] s1Tokens = line1.Split();
                         string[] s2Tokens = line2.Split();

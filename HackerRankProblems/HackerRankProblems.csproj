@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Algorithms\GraphTheory\bfsshortreach\bfsshortreach.cs" />
+    <Compile Include="Algorithms\Implementation\SherlockAndTheBeast\SherlockAndTheBeast.cs" />
     <Compile Include="ConsoleOverride.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
