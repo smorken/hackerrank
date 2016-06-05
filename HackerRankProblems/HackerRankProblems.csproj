@@ -51,6 +51,7 @@
     <Compile Include="Algorithms\GraphTheory\bfsshortreach\bfsshortreach.cs" />
     <Compile Include="Algorithms\Implementation\SherlockAndTheBeast\SherlockAndTheBeast.cs" />
     <Compile Include="ConsoleOverride.cs" />
+    <Compile Include="Mathematics\Algebra\EasySum\EasySum.cs" />
     <Compile Include="Mathematics\Fundamentals\SummingTheNSeries\SummingTheNSeries.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

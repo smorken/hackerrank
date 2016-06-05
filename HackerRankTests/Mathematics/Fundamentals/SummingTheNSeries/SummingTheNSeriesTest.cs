@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace HackerRankTests.Mathematics.Fundamentals
+namespace HackerRankTests.Mathematics.Fundamentals.SummingTheNSeries
 {
     using HackerRankProblems.Mathematics.Fundamentals.SummingTheNSeries;
     [TestClass]
