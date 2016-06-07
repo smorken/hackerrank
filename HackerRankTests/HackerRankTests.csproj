@@ -55,6 +55,7 @@
     <Compile Include="Algorithms\GraphTheory\bfsshortreach\bfsshortreachTest.cs" />
     <Compile Include="Algorithms\Implementation\SherlockAndTheBeast\SherlockAndTheBeastTest.cs" />
     <Compile Include="Mathematics\Algebra\EasySum\EasySumTest.cs" />
+    <Compile Include="Mathematics\Algebra\SteppingStonesGame\SteppingStonesGameTest.cs" />
     <Compile Include="Mathematics\Fundamentals\SummingTheNSeries\SummingTheNSeriesTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TempFile.cs" />
@@ -74,6 +75,7 @@
       <Name>HackerRankProblems</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
