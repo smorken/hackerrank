@@ -50,6 +50,8 @@
   <ItemGroup>
     <Compile Include="Algorithms\GraphTheory\bfsshortreach\bfsshortreach.cs" />
     <Compile Include="Algorithms\Implementation\SherlockAndTheBeast\SherlockAndTheBeast.cs" />
+    <Compile Include="Algorithms\Sorting\InsertionSortPart1\InsertionSortPart1.cs" />
+    <Compile Include="Algorithms\Sorting\InsertionSortPart2\InsertionSortPart2.cs" />
     <Compile Include="ConsoleOverride.cs" />
     <Compile Include="Mathematics\Algebra\EasySum\EasySum.cs" />
     <Compile Include="Mathematics\Algebra\SteppingStonesGame\SteppingStonesGame.cs" />
@@ -59,6 +61,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
