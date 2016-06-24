@@ -56,6 +56,8 @@
     <Compile Include="Algorithms\Implementation\SherlockAndTheBeast\SherlockAndTheBeastTest.cs" />
     <Compile Include="Algorithms\Sorting\InsertionSortPart1\InsertionSortPart1Test.cs" />
     <Compile Include="Algorithms\Sorting\InsertionSortPart2\InsertionSortPart2Test.cs" />
+    <Compile Include="Algorithms\Sorting\Quicksort1Partition\Quicksort1PartitionTest.cs" />
+    <Compile Include="Algorithms\Sorting\Quicksort2Sorting\QuickSort2SortingTest.cs" />
     <Compile Include="Mathematics\Algebra\EasySum\EasySumTest.cs" />
     <Compile Include="Mathematics\Algebra\SteppingStonesGame\SteppingStonesGameTest.cs" />
     <Compile Include="Mathematics\Fundamentals\SummingTheNSeries\SummingTheNSeriesTest.cs" />

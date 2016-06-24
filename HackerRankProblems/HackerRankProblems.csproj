@@ -52,6 +52,8 @@
     <Compile Include="Algorithms\Implementation\SherlockAndTheBeast\SherlockAndTheBeast.cs" />
     <Compile Include="Algorithms\Sorting\InsertionSortPart1\InsertionSortPart1.cs" />
     <Compile Include="Algorithms\Sorting\InsertionSortPart2\InsertionSortPart2.cs" />
+    <Compile Include="Algorithms\Sorting\Quicksort1Partition\Quicksort1Partition.cs" />
+    <Compile Include="Algorithms\Sorting\Quicksort2Sorting\QuickSort2Sorting.cs" />
     <Compile Include="ConsoleOverride.cs" />
     <Compile Include="Mathematics\Algebra\EasySum\EasySum.cs" />
     <Compile Include="Mathematics\Algebra\SteppingStonesGame\SteppingStonesGame.cs" />
