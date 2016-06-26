@@ -1,5 +1,4 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace HackerRankTests.Algorithms.Sorting.Quicksort2Sorting
 {
@@ -20,6 +19,31 @@ namespace HackerRankTests.Algorithms.Sorting.Quicksort2Sorting
 1 2 3 5 7 8 9";
             bool result = TestCaseLoader.TempFileTest(input, expectedOutput, Solution.Main);
             Assert.IsTrue(result);
+        }
+
+        [TestMethod]
+        public void Test01()
+        {
+            string input =
+@"9
+9 8 6 7 3 5 4 1 2";
+            string expectedOutput =
+@"1 2
+4 5
+1 2 3 4 5
+1 2 3 4 5 6 7
+1 2 3 4 5 6 7 8
+1 2 3 4 5 6 7 8 9";
+            bool result = TestCaseLoader.TempFileTest(input, expectedOutput, Solution.Main);
+            Assert.IsTrue(result);
+        }
+
+        [TestMethod]
+        public void Test02()
+        {
+            string TestInputPath = @"Algorithms\Sorting\Quicksort2Sorting\input02.txt";
+            string ExpectedResultsPath = @"Algorithms\Sorting\Quicksort2Sorting\output02.txt";
+            Assert.IsTrue(TestCaseLoader.FileTest(TestInputPath, ExpectedResultsPath, Solution.Main));
         }
     }
 }
