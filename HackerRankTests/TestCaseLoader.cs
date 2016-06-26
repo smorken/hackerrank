@@ -55,13 +55,17 @@ namespace HackerRankTests
         }
         public static bool FileTest(string TestInputPath, string ExpectedResultsPath, Action<string[]> method)
         {
-            using (TempFile t = new TempFile("temp.txt", null))
+            using (TempFile t = new TempFile("output.txt", null))
             {
                 TestCaseLoader.SetUp(TestInputPath, t.Filename);
                 method(null);
                 TestCaseLoader.TearDown();
-                return TestCaseLoader.CompareOutput(ExpectedResultsPath, "temp.txt");
+                return TestCaseLoader.CompareOutput(ExpectedResultsPath, "output.txt");
             }
+        }
+        public static string[] GetOutput()
+        {
+            return File.ReadAllLines("output.txt");
         }
         public static bool TempFileTest(string input, string expectedOutput, Action<string[]> method)
         {

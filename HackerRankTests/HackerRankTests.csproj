@@ -72,6 +72,12 @@
     <Content Include="Algorithms\GraphTheory\bfsshortreach\output05.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Algorithms\Sorting\Quicksort2Sorting\input02.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Algorithms\Sorting\Quicksort2Sorting\output02.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\HackerRankProblems\HackerRankProblems.csproj">
