@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace HackerRankProblems.Algorithms.Sorting.Quicksort2Sorting
 {
@@ -30,7 +28,7 @@ namespace HackerRankProblems.Algorithms.Sorting.Quicksort2Sorting
             int pivot = ar[start];
             List<int> left = new List<int>();
             List<int> right = new List<int>();
-            for(int i = start + 1; i<end; i++)
+            for (int i = start + 1; i <= end; i++)
             {
                 if (ar[i] < pivot)
                 {
@@ -45,7 +43,7 @@ namespace HackerRankProblems.Algorithms.Sorting.Quicksort2Sorting
             left.Add(pivot);
            
             int[] subAr = left.Concat(right).ToArray();
-            for(int i = start; i<end; i++)
+            for (int i = start; i <= end; i++)
             {
                 ar[i] = subAr[i - start];
             }
@@ -57,7 +55,7 @@ namespace HackerRankProblems.Algorithms.Sorting.Quicksort2Sorting
         {
             int pivot = ar[start];
             int partitionStart = start + 1;
-            for (int i = start + 1; i < end; i++)
+            for (int i = start + 1; i <= end; i++)
             {
                 if (ar[i] < pivot)
                 {
@@ -75,7 +73,8 @@ namespace HackerRankProblems.Algorithms.Sorting.Quicksort2Sorting
             int p = StablePartition(ar, start, end);
             Sort(ar, start, p-1);
             Sort(ar, p + 1, end);
-            Console.WriteLine(String.Join(" ", ar.Skip(start).Take(end+1)));
+            string result = String.Join(" ", ar.Skip(start).Take(end - start + 1));
+            Console.WriteLine(result);
         }
         public static void Main(String[] args)
         {
