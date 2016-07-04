@@ -60,6 +60,7 @@
     <Compile Include="Algorithms\Sorting\Quicksort2Sorting\QuickSort2SortingTest.cs" />
     <Compile Include="Mathematics\Algebra\EasySum\EasySumTest.cs" />
     <Compile Include="Mathematics\Algebra\SteppingStonesGame\SteppingStonesGameTest.cs" />
+    <Compile Include="Mathematics\Algebra\TriangleNumbers\TriangleNumbersTest.cs" />
     <Compile Include="Mathematics\Fundamentals\SummingTheNSeries\SummingTheNSeriesTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TempFile.cs" />
@@ -76,6 +77,12 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Algorithms\Sorting\Quicksort2Sorting\output02.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Mathematics\Algebra\TriangleNumbers\input04.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Mathematics\Algebra\TriangleNumbers\output04.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

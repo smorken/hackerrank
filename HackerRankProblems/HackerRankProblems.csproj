@@ -57,6 +57,7 @@
     <Compile Include="ConsoleOverride.cs" />
     <Compile Include="Mathematics\Algebra\EasySum\EasySum.cs" />
     <Compile Include="Mathematics\Algebra\SteppingStonesGame\SteppingStonesGame.cs" />
+    <Compile Include="Mathematics\Algebra\TriangleNumbers\TriangleNumbers.cs" />
     <Compile Include="Mathematics\Fundamentals\SummingTheNSeries\SummingTheNSeries.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
